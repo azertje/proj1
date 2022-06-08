@@ -483,7 +483,7 @@ nav ul li a:hover {
 .contact-info-detail {
     padding: 20px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: #e5e5e5;
     border-radius: 8px;
     line-height: 50px;
