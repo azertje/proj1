@@ -673,7 +673,7 @@ element a l'esquerra.
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
     .main-sec1-container {
         padding: 100px 0;
     }
