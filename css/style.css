@@ -58,7 +58,6 @@ nav {
     height: 80px;
     position: absolute;
     max-width: 1280px;
-    /* padding: 0 80px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -107,7 +106,6 @@ nav ul li a:hover {
     justify-content: center;
     visibility: hidden;
 }
-/* Hamburger Line */
 .hamburger > div {
     position: relative;
     flex: none;
@@ -119,7 +117,6 @@ nav ul li a:hover {
     justify-content: center;
     transition: all 0.4s ease;
 }
-/* Hamburger Lines - Top & Bottom */
 .hamburger > div::before,
 .hamburger > div::after {
     content: "";
@@ -130,25 +127,20 @@ nav ul li a:hover {
     height: 2px;
     background: inherit;
 }
-/* Moves Line Down */
 .hamburger > div::after {
     top: 10px;
 }
-/* Toggler Animation */
 .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
 }
-/* Turns Lines Into X */
 .toggler:checked + .hamburger > div:before,
 .toggler:checked + .hamburger > div:after {
     top: 0;
     transform: rotate(90deg);
 }
-/* Rotate On Hover When Checked */
 .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
 }
-/* Show Menu */
 .toggler:checked ~ .menu {
     visibility: visible;
 }
@@ -481,9 +473,9 @@ nav ul li a:hover {
     justify-content: space-between;
 }
 .contact-info-detail {
-    padding: 20px 20px;
+    padding: 20px 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: #e5e5e5;
     border-radius: 8px;
     line-height: 50px;
